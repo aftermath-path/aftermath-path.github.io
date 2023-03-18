@@ -13,6 +13,16 @@ body {
         src: url(./recursos/fonts/museo.ttf);
 	  }
 	  
+	  @font-face {
+        font-family: "one";
+        src: url(./recursos/fonts/one.ttf);
+	  }
+	  
+	  @font-face {
+        font-family: "rubik";
+        src: url(./recursos/fonts/rubik.ttf);
+	  }
+	  
       h1 {
         text-align: center;
 		font-family: "righteous", sans-serif;
@@ -27,6 +37,12 @@ body {
 	  
 	  .descripcion2 {
 		  font-family: "museo", sans-serif;
+		  font-weight: bold;
+		  font-size: 27px;
+	  }
+	  
+	  .titulocaracteristicas {
+		  font-family: "righteous", sans-serif;
 		  font-weight: bold;
 		  font-size: 27px;
 	  }
@@ -60,8 +76,11 @@ body {
         text-align: center;
         margin-top: 10px;
         color: #333;
+		font-family: "one", sans-serif;
+		font-weight: bold;
       }
       
       .caracteristicas p {
         text-align: justify; 
+		font-family: "rubik", sans-serif;
       }
